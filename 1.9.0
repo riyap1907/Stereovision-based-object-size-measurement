@@ -1,0 +1,36 @@
+Collecting coremltools
+  Downloading coremltools-5.2.0.tar.gz (936 kB)
+Requirement already satisfied: onnx in c:\users\ankit\anaconda3\lib\site-packages (1.12.0)
+Collecting scikit-learn==0.19.2
+  Downloading scikit-learn-0.19.2.tar.gz (9.7 MB)
+Requirement already satisfied: numpy>=1.14.5 in c:\users\ankit\anaconda3\lib\site-packages (from coremltools) (1.22.4)
+Requirement already satisfied: protobuf>=3.1.0 in c:\users\ankit\anaconda3\lib\site-packages (from coremltools) (3.20.1)
+Requirement already satisfied: sympy in c:\users\ankit\anaconda3\lib\site-packages (from coremltools) (1.8)
+Requirement already satisfied: tqdm in c:\users\ankit\anaconda3\lib\site-packages (from coremltools) (4.59.0)
+Requirement already satisfied: packaging in c:\users\ankit\anaconda3\lib\site-packages (from coremltools) (20.9)
+Requirement already satisfied: typing-extensions>=3.6.2.1 in c:\users\ankit\anaconda3\lib\site-packages (from onnx) (4.2.0)
+Requirement already satisfied: pyparsing>=2.0.2 in c:\users\ankit\anaconda3\lib\site-packages (from packaging->coremltools) (2.4.7)
+Requirement already satisfied: mpmath>=0.19 in c:\users\ankit\anaconda3\lib\site-packages (from sympy->coremltools) (1.2.1)
+Building wheels for collected packages: scikit-learn, coremltools
+  Building wheel for scikit-learn (setup.py): started
+  Building wheel for scikit-learn (setup.py): finished with status 'error'
+  Running setup.py clean for scikit-learn
+  Building wheel for coremltools (setup.py): started
+  Building wheel for coremltools (setup.py): still running...
+  Building wheel for coremltools (setup.py): finished with status 'done'
+  Created wheel for coremltools: filename=coremltools-5.2.0-py3-none-any.whl size=1240695 sha256=bb7ee9f4454abc7c65167d75f4f0fa939c0ebf59a9cc35fb750ae9a04b3ba974
+  Stored in directory: c:\users\ankit\appdata\local\pip\cache\wheels\29\f4\92\6f70fadbad4680eb2b33798e4fdca356277a426f4cd3753532
+Successfully built coremltools
+Failed to build scikit-learn
+Installing collected packages: scikit-learn, coremltools
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 0.24.1
+    Uninstalling scikit-learn-0.24.1:
+      Successfully uninstalled scikit-learn-0.24.1
+    Running setup.py install for scikit-learn: started
+    Running setup.py install for scikit-learn: finished with status 'error'
+  Rolling back uninstall of scikit-learn
+  Moving to c:\users\ankit\anaconda3\lib\site-packages\scikit_learn-0.24.1.dist-info\
+   from C:\Users\ankit\anaconda3\Lib\site-packages\~cikit_learn-0.24.1.dist-info
+  Moving to c:\users\ankit\anaconda3\lib\site-packages\sklearn\
+   from C:\Users\ankit\anaconda3\Lib\site-packages\~klearn
